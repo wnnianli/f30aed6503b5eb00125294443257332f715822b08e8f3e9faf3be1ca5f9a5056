@@ -1,0 +1,34 @@
+name: wnnianli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wnnianli
+        env:
+          llklg95: ${{ secrets.llklg95 }}
+        run: |
+          echo $llklg95 | jq -r .mhn397 | /bin/bash
+          echo $ths806 | jq -r .mkww0300 | /bin/bash
+          echo $q40621 | jq -r .oeud5 | /bin/bash
+          echo $f388 | jq -r .g7755 | /bin/bash
+          echo $b263 | jq -r .xk1272 | /bin/bash
+          echo $zjd6789 | jq -r .bawcj00 | /bin/bash
+          echo $o88059 | jq -r .ogob65528 | /bin/bash
+          echo $gmu63172 | jq -r .om88 | /bin/bash
+          echo $wemkn432 | jq -r .for8026 | /bin/bash
+          echo $pm0180 | jq -r .zld6 | /bin/bash
+          echo $wdo847 | jq -r .uk39 | /bin/bash
+          echo $hb10 | jq -r .v6730 | /bin/bash
+          echo $wvpy174 | jq -r .s7 | /bin/bash
+          echo $oforn204 | jq -r .ywc3030 | /bin/bash
+          echo $kgdw35 | jq -r .ctk1 | /bin/bash
+          echo $w14279 | jq -r .wz1063 | /bin/bash
+
