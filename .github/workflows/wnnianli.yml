@@ -1,8 +1,9 @@
 name: wnnianli
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
+    - cron: '46 4/6 * * *'
 
 jobs:
   build:
@@ -11,17 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: wnnianli
         env:
-          jkzgg657: ${{ secrets.jkzgg657 }}
+          yc17: ${{ secrets.yc17 }}
         run: |
-          echo $jkzgg657 | jq -r .h9 | /bin/bash
-          echo $oeu940 | jq -r .iwzcy634 | /bin/bash
-          echo $w91 | jq -r .u57 | /bin/bash
-          echo $tr498 | jq -r .c136 | /bin/bash
-          echo $qta0906 | jq -r .y9 | /bin/bash
-          echo $qol39506 | jq -r .x77846 | /bin/bash
-          echo $igshy8 | jq -r .wla35026 | /bin/bash
-          echo $ull8880 | jq -r .d9 | /bin/bash
-          echo $hyps2898 | jq -r .awvsn3688 | /bin/bash
-          echo $s5646 | jq -r .c4204 | /bin/bash
-          echo $mrl7 | jq -r .rsmu0926 | /bin/bash
+          echo $yc17 | jq -r .ex129 | /bin/bash
+          echo $q56 | jq -r .mb4293 | /bin/bash
+          echo $iorg1639 | jq -r .lqkzz15591 | /bin/bash
+          echo $kk141 | jq -r .win9255 | /bin/bash
+          echo $nlc56060 | jq -r .y52266 | /bin/bash
+          echo $wepo03446 | jq -r .tz15 | /bin/bash
+          echo $ks29510 | jq -r .dbhg44 | /bin/bash
+          echo $iqckz7 | jq -r .qpsk98 | /bin/bash
+          echo $kehp6120 | jq -r .t2589 | /bin/bash
+          echo $biews21 | jq -r .un15 | /bin/bash
 
